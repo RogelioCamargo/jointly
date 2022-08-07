@@ -5,7 +5,8 @@ const TicketList = () => {
 	const array = new Array(20).fill(1); 
 	return (
 		<div className="ticket-list">
-			<ul className="max-w-6xl mx-auto">
+			<h1 className="p-3 text-2xl font-bold">Inbox</h1>
+			<ul>
 				{array.map((_) => (
 					<TicketListItem />
 				))}

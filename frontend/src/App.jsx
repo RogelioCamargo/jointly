@@ -1,17 +1,23 @@
 import './App.css';
-import CustomerConversation from "./components/CustomerConversation/CustomerConverstion";
-import InternalDiscussion from "./components/InternalDiscussion/InternalDiscussion";
-import SideMenu from "./components/SideMenu/SideMenu";
+import CustomerConversation from "./components/CustomerConversation";
+import InternalDiscussion from "./components/InternalDiscussion";
+import SideMenu from "./components/SideMenu";
+import TicketList from "./components/TicketList";
 
 function App() {
   return (
     <div className="App">
-			<div className="flex">
+			<div className="flex w-full h-full">
 				<SideMenu />
-				<div className="flex">
-					<CustomerConversation />
-					<InternalDiscussion />
-				</div>
+				<main className="main-content">
+					<div className="max-w-6xl mx-auto">
+						{/* <TicketList /> */}
+						<div className="flex">
+							<CustomerConversation />
+							<InternalDiscussion />
+						</div>
+					</div>
+				</main>
 			</div>
     </div>
   );
