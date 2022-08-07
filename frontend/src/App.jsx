@@ -1,20 +1,29 @@
 import './App.css';
-import CustomerConversation from "./components/CustomerConversation";
-import InternalDiscussion from "./components/InternalDiscussion";
+import CustomerDiscussion from "./components/CustomerDiscussion";
+import CompanyDiscussion from "./components/CompanyDiscussion";
 import SideMenu from "./components/SideMenu";
 import TicketList from "./components/TicketList";
+import TicketListItem from "./components/TicketListItem/";
 
 function App() {
   return (
     <div className="App">
+			<div className="bg-green-500 h-12">
+				
+			</div>
 			<div className="flex w-full h-full">
 				<SideMenu />
 				<main className="main-content">
-					<div className="max-w-6xl mx-auto">
+					<div className="h-full">
 						{/* <TicketList /> */}
-						<div className="flex">
-							<CustomerConversation />
-							<InternalDiscussion />
+						<div className="py-3 h-full">
+							<div className="px-5">
+								<TicketListItem />
+							</div>
+							<div className="flex mt-5 h-full">
+								<CustomerDiscussion />
+								<CompanyDiscussion />
+							</div>
 						</div>
 					</div>
 				</main>
