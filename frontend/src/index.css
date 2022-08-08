@@ -38,3 +38,7 @@ body,
 	margin-left: 240px;
 	overflow-y: hidden;
 }
+
+.font-poiret-one {
+	font-family: 'Poiret One', cursive;
+}
