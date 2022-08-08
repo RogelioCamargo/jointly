@@ -5,7 +5,7 @@ import MessageInput from "../MessageInput";
 const CustomerConversation = () => {
 	return (
 		<div className="relative h-full w-1/2">
-			<div className="h-5/6 overflow-y-scroll">
+			<div className="h-4/5 overflow-y-scroll">
 				<Message
 					src="https://media.glassdoor.com/sqll/1704/nordstrom-squarelogo-1557161537917.png"
 					name="Nordstrom"

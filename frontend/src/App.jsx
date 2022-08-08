@@ -19,7 +19,7 @@ function App() {
 				<SideMenu />
 				<main className="main-content">
 					<div className="h-full">
-						{/* <TicketList /> */}
+						<TicketList />
 						<div className="py-3 h-full">
 							<div className="px-5">
 								<TicketListItem />

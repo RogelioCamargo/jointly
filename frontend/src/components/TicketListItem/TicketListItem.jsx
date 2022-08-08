@@ -2,7 +2,7 @@ import React from "react";
 
 const TicketListItem = () => {
 	return (
-		<li className="grid grid-cols-8 items-center">
+		<li className="grid grid-cols-8 items-center border-b border-gray-100 py-2">
 			<div className="col-span-4">
 				<span className="block">Sent the wrong size, want to exchange</span>
 				<span className="block text-slate-500 text-sm">Got a size medium, ordered a small</span>

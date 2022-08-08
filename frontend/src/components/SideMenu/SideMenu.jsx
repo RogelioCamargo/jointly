@@ -2,7 +2,7 @@ import React from "react";
 
 const SideMenu = () => {
 	return (
-		<aside className="side-menu py-3 px-5 bg-gray-50 h-full">
+		<aside className="side-menu py-3 px-5 bg-gray-100 h-full">
 			<h2 className="font-bold text-3xl font-poiret-one tracking-wider">jointly</h2>
 			<div className="mt-6">
 				<ul className="grid gap-2">

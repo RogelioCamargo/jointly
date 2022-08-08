@@ -5,7 +5,7 @@ import MessageInput from "../MessageInput";
 const InternalDiscussion = () => {
 	return (
 		<div className="relative h-full w-1/2">
-			<div className="h-5/6 overflow-y-scroll">
+			<div className="h-4/5 overflow-y-scroll">
 				<Message
 					src="https://image13.photobiz.com/9048/3_20180601100200_22858587_large.jpg"
 					name="Michael Stevens"
