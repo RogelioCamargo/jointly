@@ -3,8 +3,8 @@ import React from "react";
 const SideMenu = () => {
 	return (
 		<aside className="side-menu py-3 px-5 bg-gray-50 h-full">
-			<h1 className="font-bold text-2xl">Jointly</h1>
-			<div className="mt-7">
+			<h2 className="font-bold text-3xl font-poiret-one tracking-wider">jointly</h2>
+			<div className="mt-6">
 				<ul className="grid gap-2">
 					<li className="flex items-center">
 						<span className="mr-1">
@@ -65,8 +65,8 @@ const SideMenu = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="mt-7">
-				<h2 className="font-bold mb-2">Priority</h2>
+			<div className="mt-6">
+				<h2 className="text-md font-bold mb-2">Priority</h2>
 				<ul className="grid gap-2">
 					<li className="flex items-center">
 						<span className="mr-1 w-5 h-5 flex justify-center items-center">

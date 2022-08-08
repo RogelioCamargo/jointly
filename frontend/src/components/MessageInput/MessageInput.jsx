@@ -10,7 +10,7 @@ const MessageInput = () => {
 					name="customer_response_input"
 					id="customer_response_input"
 				/>
-				<span className="ml-2 text-slate-500">
+				<span className="ml-2 text-green-500">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="h-6 w-6"

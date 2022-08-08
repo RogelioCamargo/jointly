@@ -4,7 +4,7 @@ const Message = ({ src, name, content, timestamp }) => {
 	return (
 		<div className="px-5">
 			<div className="flex mb-3">
-				<div className="h-9 w-9 mr-2 overflow-hidden rounded-md ">
+				<div className="h-9 w-9 mr-2 overflow-hidden rounded-full ">
 					<img className="object-fill" src={src} alt="" />
 				</div>
 				<div className="w-3/4">
