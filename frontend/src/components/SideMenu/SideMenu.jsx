@@ -10,7 +10,7 @@ const SideMenu = () => {
 						<span className="mr-1">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="h-5 w-5"
+								className="h-4 w-4"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -29,7 +29,7 @@ const SideMenu = () => {
 						<span className="mr-1">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="h-5 w-5"
+								className="h-4 w-4"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -48,7 +48,7 @@ const SideMenu = () => {
 						<span className="mr-1">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="h-5 w-5"
+								className="h-4 w-4"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -69,19 +69,19 @@ const SideMenu = () => {
 				<h2 className="text-md font-bold mb-2">Priority</h2>
 				<ul className="grid gap-2">
 					<li className="flex items-center">
-						<span className="mr-1 w-5 h-5 flex justify-center items-center">
+						<span className="mr-1 w-4 h-4 flex justify-center items-center">
 							<div className="bg-red-500 w-3 h-3 rounded-full"></div>
 						</span>
 						<span>High</span>
 					</li>
 					<li className="flex items-center">
-						<span className="mr-1 w-5 h-5 flex justify-center items-center">
+						<span className="mr-1 w-4 h-4 flex justify-center items-center">
 							<div className="bg-yellow-500 w-3 h-3 rounded-full"></div>
 						</span>
 						<span>Medium</span>
 					</li>
 					<li className="flex items-center">
-						<span className="mr-1 w-5 h-5 flex justify-center items-center">
+						<span className="mr-1 w-4 h-4 flex justify-center items-center">
 							<div className="bg-green-500 w-3 h-3 rounded-full"></div>
 						</span>
 						<span>Low</span>
